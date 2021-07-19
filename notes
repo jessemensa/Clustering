@@ -1,0 +1,27 @@
+Clustering Algorithms => unsupervised learning machine learning task. 
+Automatically discovering natural groupings in data. 
+
+Two main Algorithms 
+K means Clustering & Hierachical Clustering 
+
+
+K means clustering => tools for discovering categories in groups in the any dataset. 
+Take a simple scatter plot using just two variables, x and y, k means makes it easy to 
+identify clusters in a specific dataset. 
+Kmeans works with multidimensional dataset and it is designed to find clusters in the dataset 
+to aid in decision making. 
+
+
+Hierachical Clustering => group similar objects or data pts into groups called cluster. 
+
+Step 1  
+Make each data point a single-point cluster -> That forms N Clusters
+
+Step 2 
+Take the two closest data pt and make them one cluster -> and that forms N-1 clusters 
+
+Step 3 
+Take the two closest clusters and make them one cluster -> and that forms N-2 clusters 
+
+Step 4 
+Repeat STEP 3 until there is one cluster. 
